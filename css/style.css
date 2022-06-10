@@ -1,0 +1,121 @@
+/* Colors and Fonts*/
+@import url("https: //fonts.googleapis.com/css?family=Roboto");
+@import url(components/containers.css);
+
+body {
+	background: white;
+	color: rgb(50, 50, 50);
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 330;
+}
+
+h1, h2 {
+	color: rgb(50, 50, 50);
+	font-family: Helvetica;
+	text-align: center;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+hr {
+	margin-bottom: 20px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(50, 50, 50);
+	font-weight: 600;
+}
+
+a:hover {
+	color: black;
+}
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 250px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-grey {
+	text-align: center;
+	background-color: #efefef;
+	color: rgb(50, 50, 50);
+	border-radius: 4px;
+	padding: 15px 20px;
+	display: block;
+	width: 150px;
+	margin: 20px auto;
+	border: 1px solid grey;
+}
+
+.btn-grey:hover {
+	background-color: rgb(50, 50, 50);
+	border-radius: 4px;
+	color: white;
+}
+
+.list-inline {
+	list-style-type: none;
+	padding-left: 0px;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+.line-black {
+	size: 1;
+	width: 150px;
+	background-color: black;
+	border-color: transparent;
+}
+
+@media (max-width:  540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+@media (max-width:  720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
